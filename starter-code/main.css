@@ -100,3 +100,54 @@
   font-size: 16px;
   color: #87879d;
 }
+
+.secondary-images-container {
+  display: flex;
+  gap: 30px;
+  width: 1110px;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.secondary-images-container img {
+  width: 255px;
+  border-radius: 10px;
+}
+
+.secondary-text-section {
+  margin-top: 80px;
+  width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.secondary-text-section .secondary-title__green {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  letter-spacing: 4px;
+  color: #4d96a9;
+  height: 26px;
+  width: 275px;
+  margin: 0 auto;
+}
+
+.secondary-text-section .secondary-title__bold {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  text-align: center;
+  width: 445px;
+  margin: 16px auto 32px auto;
+}
+
+.secondary-text-section .secondary-desc__light {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #87879d;
+  width: 540px;
+  text-align: center;
+  line-height: 26px;
+}
