@@ -76,3 +76,27 @@
   font-size: 16px;
   color: #ffffff;
 }
+
+.figure-container {
+  margin-top: 110px;
+}
+
+.vertical-line-container {
+  width: 1px;
+  height: 84px;
+  border: 1px solid #87879d;
+  margin: 0 auto;
+  opacity: 0.25;
+}
+
+.figure-container .circular-number-container {
+  width: 56px;
+  padding: 15px 19px;
+  border: 1px solid rgba(135, 135, 157, 0.25);
+  border-radius: 29px;
+  margin: 0 auto;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  color: #87879d;
+}
