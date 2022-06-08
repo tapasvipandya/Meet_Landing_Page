@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.top-logo-section {
+  margin-top: 80px;
+  width: 119px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-headliner-section {
+  margin-top: 61px;
+  display: flex;
+  justify-content: space-around;
+  height: 358px;
+}
+
+.text-cta-container {
+  width: 540px;
+  margin: 0 88px;
+  text-align: center;
+}
+
+.main-text {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+  font-size: 64px;
+  margin-top: 30px;
+  width: 445px;
+  margin: 0 auto;
+}
+
+.sub-text {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #87879d;
+  margin-top: 34px;
+  width: 540px;
+}
+
+.cta-container {
+  margin-top: 32px;
+}
+
+.cta-container a {
+  text-decoration: none;
+}
+
+.cta-container #button-1 {
+  background: #4d96a9;
+  padding: 16px 40px;
+  border-radius: 29px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.cta-container #button-1 span {
+  color: #8fe3f9;
+}
+
+.cta-container #button-2 {
+  background: #855fb1;
+  padding: 16px 29px;
+  border-radius: 29px;
+  margin-left: 16px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  color: #ffffff;
+}
