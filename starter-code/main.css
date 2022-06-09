@@ -17,6 +17,9 @@
   display: flex;
   justify-content: space-around;
   height: 358px;
+  margin-top: 61px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .text-cta-container {
@@ -93,7 +96,18 @@
   opacity: 0.25;
 }
 
-.figure-container .circular-number-container,
+.figure-container .circular-number-container{
+  width: 56px;
+  padding: 15px 19px;
+  border: 1px solid rgba(135, 135, 157, 0.25);
+  border-radius: 29px;
+  margin: 0 auto;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  color: #87879d;
+}
+
 .secondary-figure-container .circular-number-container {
   width: 56px;
   padding: 15px 19px;
@@ -104,6 +118,20 @@
   font-weight: 900;
   font-size: 16px;
   color: #87879d;
+  background: #ffffff;
+  position: relative;
+  top: 28px;
+  z-index: 100;
+
+}
+
+.secondary-figure-container .vertical-line-container{
+  width: 1px;
+  height: 84px;
+  border: 1px solid #87879d;
+  margin: 0 auto -28px auto;
+  opacity: 0.25;
+
 }
 
 .secondary-images-container {
@@ -168,7 +196,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 116px;
+  padding:116px 116px 104px 116px;
 }
 
 .layer {
@@ -212,6 +240,7 @@
   font-family: "Red Hat Display", sans-serif;
   font-weight: 900;
   font-size: 16px;
+  z-index: 12;
  }
 
  .footer-content .footer-cta-section span{
@@ -219,4 +248,4 @@
  }
 
 
-
+ /* media queries */
