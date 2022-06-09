@@ -81,6 +81,10 @@
   margin-top: 110px;
 }
 
+.secondary-figure-container {
+  margin-top: 72px;
+}
+
 .vertical-line-container {
   width: 1px;
   height: 84px;
@@ -89,7 +93,8 @@
   opacity: 0.25;
 }
 
-.figure-container .circular-number-container {
+.figure-container .circular-number-container,
+.secondary-figure-container .circular-number-container {
   width: 56px;
   padding: 15px 19px;
   border: 1px solid rgba(135, 135, 157, 0.25);
@@ -151,3 +156,67 @@
   text-align: center;
   line-height: 26px;
 }
+
+.footer {
+  height: 308px;
+  background: rgb(77,150,168);
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 116px;
+}
+
+.layer {
+  background: url(assets/desktop/image-footer.jpg);
+  height: 308px;
+  width: 1440px;
+  position: absolute;
+  opacity: 0.1;
+}
+
+
+.footer-content .footer-bold-text{
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 44px;
+  color: #ffffff;
+  z-index: 12;
+  width: 350px;
+}
+
+.footer-content .footer-light-text{
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+  z-index: 12;
+  width: 350px;
+}
+
+.footer-content .footer-cta-section a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-content .footer-cta-section{
+  background: #855fb1;
+  padding: 16px 40px;
+  border-radius: 29px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+ }
+
+ .footer-content .footer-cta-section span{
+   color: #D9B8FF;
+ }
+
+
+
