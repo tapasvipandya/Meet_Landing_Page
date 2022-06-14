@@ -67,13 +67,9 @@
   color: #ffffff;
 }
 
-.cta-container #button-1:hover{
-  background: #71C0D4;
+.cta-container #button-1:hover {
+  background: #71c0d4;
 }
-
-
-
-
 
 .cta-container #button-1 span {
   color: #8fe3f9;
@@ -89,9 +85,8 @@
   font-size: 16px;
   color: #ffffff;
 }
-.cta-container #button-2:hover{
-  background: #B18BDD;
-
+.cta-container #button-2:hover {
+  background: #b18bdd;
 }
 
 .figure-container {
@@ -257,8 +252,8 @@
   z-index: 12;
 }
 
-.footer-content .footer-cta-section:hover{
-  background:#B18BDD ;
+.footer-content .footer-cta-section:hover {
+  background: #b18bdd;
 }
 
 .footer-content .footer-cta-section span {
@@ -324,36 +319,33 @@
 /* media query for mobile */
 
 @media only screen and (min-width: 279px) and (max-width: 767px) {
-  
   .tablet-mobile-image-container {
     display: block;
     margin-top: 61px;
-  
   }
   .tablet-mobile-image-container img {
     width: 100%;
   }
 
-.main-headliner-section{
-  height: 380px;
-}
+  .main-headliner-section {
+    height: 380px;
+  }
 
   .main-headliner-section .left-image-container,
   .main-headliner-section .right-image-container {
     display: none;
   }
 
-  
-  .secondary-images-container{
+  .secondary-images-container {
     flex-wrap: wrap;
   }
-  
+
   .secondary-images-container img {
     width: 151px;
   }
 
-  .footer{
-    height:428px
+  .footer {
+    height: 428px;
   }
 
   .footer-content .footer-bold-text {
@@ -375,7 +367,6 @@
     width: 193px;
   }
 
-
   .layer {
     background: url(assets/mobile/image-footer.jpg);
     background-size: cover;
@@ -387,37 +378,33 @@
     padding-bottom: 0px;
   }
 
-  .secondary-text-section .secondary-desc__light{
+  .secondary-text-section .secondary-desc__light {
     width: 327px;
     font-size: 16px;
-  
   }
 
-  .secondary-text-section .secondary-title__bold{
+  .secondary-text-section .secondary-title__bold {
     width: 327px;
     font-size: 32px;
   }
 
- 
-
-  .text-cta-container .sub-text{
+  .text-cta-container .sub-text {
     width: 327px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .text-cta-container .main-text{
+  .text-cta-container .main-text {
     font-size: 40px;
   }
-  .text-cta-container .cta-container{
+  .text-cta-container .cta-container {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .cta-container #button-2{
+  .cta-container #button-2 {
     margin-left: 0;
     margin-top: 16px;
   }
-
 }
