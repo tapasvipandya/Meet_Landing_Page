@@ -67,6 +67,14 @@
   color: #ffffff;
 }
 
+.cta-container #button-1:hover{
+  background: #71C0D4;
+}
+
+
+
+
+
 .cta-container #button-1 span {
   color: #8fe3f9;
 }
@@ -80,6 +88,10 @@
   font-weight: 900;
   font-size: 16px;
   color: #ffffff;
+}
+.cta-container #button-2:hover{
+  background: #B18BDD;
+
 }
 
 .figure-container {
@@ -243,6 +255,10 @@
   font-weight: 900;
   font-size: 16px;
   z-index: 12;
+}
+
+.footer-content .footer-cta-section:hover{
+  background:#B18BDD ;
 }
 
 .footer-content .footer-cta-section span {
