@@ -307,6 +307,5 @@
 
 /* media query for mobile */
 
-@media only screen and (min-width:270px) and (max-width:767px){
-  
+@media only screen and (min-width: 270px) and (max-width: 767px) {
 }
